@@ -1,0 +1,11 @@
+<html>
+    <head></head>
+    <body>
+        <h1>This is a template, this is being rendered</h1>
+        {% for product in products%}
+            <h2>{{product.name}}</h2>
+            <p>{{product.desc}}</p>
+            <p>{{product.price}}</p>
+        {% endfor %}
+    </body>
+</html>
