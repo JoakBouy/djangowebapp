@@ -54,5 +54,3 @@ def delete_product(request, id):
         return redirect('/myapp/products')
     return render(request, 'myapp/delete.html', context)
 
-def profile(request):
-    return render(request, 'myapp/profile.html')
